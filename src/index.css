@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+}
+
+@layer components {
+}
+
+@layer utilities {
+  .text-overflow {
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* số dòng hiển thị */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .transition-all-btn {
+    transition: all 1s;
+  }
+}
